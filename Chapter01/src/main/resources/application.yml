@@ -1,0 +1,15 @@
+server:
+  port: 9091
+  #项目名
+  context-path: /changgx
+security:
+  user:
+    #默认登陆名user
+    name: admin
+    #默认密码是每次启动时，打印的uuid
+    password: 123456
+  basic:
+    #需要进行认证的路径
+    path: /home,/hello
+
+
