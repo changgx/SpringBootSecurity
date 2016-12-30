@@ -1,0 +1,4 @@
+server:
+  port: 9091
+  #项目名
+  context-path: /changgx
